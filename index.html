@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-clip: url("backgroundVideo.mp4");
+        }
+        
+        #container {
+            box-shadow: 0 0 50px black;
+            position: absolute;
+            width: 80%;
+            height: 80vh;
+            margin: 5% 10% 5% 10%;
+        }
+        
+        #image {
+            width: 30%;
+            float: left;
+            height: 80vh;
+            background-color: tomato;
+        }
+        
+        #content {
+            width: 70%;
+            float: right;
+            height: 80vh;
+            background-color: rgb(70, 17, 17);
+            color: white;
+        }
+        
+        #description {
+            padding: 5% 10% 5% 10%;
+        }
+        
+        button {
+            background-color: mediumorchid;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            /* text-decoration: none; */
+            /* display: inline-block; */
+            /* font-size: 16px; */
+            /* margin: 4px 2px; */
+            /* cursor: pointer; */
+        }
+        
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+        
+        button:hover {
+            background-color: rgb(196, 137, 211);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="video">
+        <video autoplay muted loop id="myVideo">
+            <source src="backgroundVideo.mp4" type="video/mp4">
+          </video>
+        <div id="container">
+            <div id="image">
+                <img src="https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100%">
+            </div>
+            <div id="content">
+                <div id="description">
+                    <h4 style="margin: 0%;">Hi there!!!</h4>
+                    <h1 style="margin: 0%;">I am Tanishqua</h1>
+                    <p style="font-style: italic; margin: 0%;">Front end developer</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolore laborum fugit amet voluptates perferendis obcaecati consequatur error voluptas ea culpa, nemo et, temporibus adipisci ad veniam mollitia architecto sunt!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores deserunt labore earum architecto ipsa quaerat possimus aliquid, laborum debitis laudantium repellat tenetur sunt sequi alias voluptate nemo commodi consectetur et.</p>
+                    <button>Explore More!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</body>
+
+</html>
